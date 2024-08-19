@@ -1,0 +1,130 @@
+---
+import MainLayouts from '../layouts/Main-Layouts.astro';
+---
+
+<MainLayouts subtitle="Home" title="Taranium">
+  <div class="relative md:mx-auto flex flex-col justify-between items-center">
+    <section class="relative w-full h-screen py-[100px] md:px-6 lg:px-10 flex items-center justify-center text-center">
+      <div class="absolute inset-0 -z-10 h-full w-full overflow-hidden">
+        <img src="/cube-1.png" alt="cube-1" class="absolute hidden lg:block bottom-[200px] right-[500px] w-[6rem] scale-y-[1] scale-x-[-1] blur-[7px] opacity-45" />
+        <img src="/cube-1.png" alt="cube-1" class="absolute hidden lg:block top-[80px] right-[400px] w-[17rem] scale-y-[1] scale-x-[-1] blur-[3px]" />
+        <img src="/cube-1.png" alt="cube-1" class="absolute hidden lg:block bottom-[20px] right-[400px] w-[17rem] scale-y-[1] scale-x-[-1]" />
+        <img src="/cube-1.png" alt="cube-1" class="absolute hidden lg:block top-[200px] right-[-200px] w-[40rem]" />
+        <img src="/bg-square1.png" alt="bg-square" class="absolute top-[40px] left-[-500px] w-[70rem] h-[730px] opacity-40 hidden lg:block" />
+      </div>
+      <div class="font-clashDisplay flex flex-col gap-0">
+        <h3 class="text-white text-[25px] lg:text-[3rem] font-semibold tracking-[3px]">Welcome to</h3>
+        <h1 class="bg-gradient-to-r from-[#CFB1FF] via-[#CFB1FF] to-[#7915EC] inline-block text-transparent bg-clip-text text-[40px] lg:text-[10rem] font-semibold tracking-[6px]">TARANIUM</h1>
+      </div>
+    </section>
+
+    <section class="relative w-full py-[100px] md:px-6 lg:px-10">
+      <div class="absolute inset-0 -z-10 h-full w-full overflow-hidden">
+        <img src="/bg-indonesia.svg" alt="bg-square" class="absolute top-[120px] right-[200px] w-[50rem] hidden lg:block" />
+      </div>
+      <div class="md:max-w-[100rem] py-5 px-5 md:px-0 lg:mx-auto flex flex-col justify-start gap-y-20">
+        <div class="flex flex-col gap-y-2 md:w-[40rem]">
+          <h1 class="uppercase tracking-[8px] font-bold font-clashDisplay bg-gradient-to-r from-[#CFB1FF] via-[#CFB1FF] to-[#7915EC] inline-block text-transparent bg-clip-text lg:text-2xl">who we are?</h1>
+          <p class="text-base text-justify md:text-left md:text-lg text-white">
+            Taranium is the first Indonesian blockchain platform built on Ethereum Virtual Machine (EVM) and Solidity. It’s designed to empower local developers and businesses with a robust, scalable, and user-friendly blockchain
+            environment tailored to Indonesia's unique needs.
+          </p>
+        </div>
+        <div class="flex flex-col gap-y-2 md:w-[40rem]">
+          <h1 class="uppercase tracking-[8px] font-bold font-clashDisplay bg-gradient-to-r from-[#CFB1FF] via-[#CFB1FF] to-[#7915EC] inline-block text-transparent bg-clip-text lg:text-2xl">our mission</h1>
+          <p class="text-base text-justify md:text-left md:text-lg text-white">
+            Taranium is the first Indonesian blockchain platform built on Ethereum Virtual Machine (EVM) and Solidity. It’s designed to empower local developers and businesses with a robust, scalable, and user-friendly blockchain
+            environment tailored to Indonesia's unique needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full py-[100px] px-5 md:px-6 lg:px-10 overflow-x-hidden">
+      <div class="md:max-w-[100rem] py-5 lg:mx-auto flex flex-col justify-center gap-y-20">
+        <h1 class="uppercase tracking-[8px] font-bold font-clashDisplay text-white lg:text-[45px] text-center">what we do ?</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
+          <!-- card 1 -->
+          <div class="card relative flex flex-col justify-between items-start py-5 px-8 border border-[#666666] rounded-lg bg-gradient-to-t from-[#111111] to-transparent w-full max-w-[360px] h-full overflow-hidden">
+            <img src="/flower-1.svg" alt="Icon" class="absolute -top-1 -right-1 w-[8rem] h-[8rem] md:w-[12rem] md:h-[12rem]" />
+            <h1 class="font-clashDisplay font-bold text-[#666666]">01.</h1>
+            <div class="flex flex-col gap-y-6 mt-24">
+              <h1 class="text-white font-semibold uppercase text-[25px] font-clashDisplay">Venture Support</h1>
+              <p class="text-white">Nurturing innovative blockchain projects from concept to launch, providing guidance, resources, and support.</p>
+            </div>
+          </div>
+          <!-- card 2 -->
+          <div class="card relative flex flex-col justify-between items-start py-5 px-8 border border-[#666666] rounded-lg bg-gradient-to-t from-[#111111] to-transparent w-full max-w-[360px] h-full overflow-hidden">
+            <img src="/cube-2.svg" alt="Icon" class="absolute -top-1 -right-1 w-[8rem] h-[8rem] md:w-[12rem] md:h-[12rem]" />
+            <h1 class="font-clashDisplay font-bold text-[#666666]">02.</h1>
+            <div class="flex flex-col gap-y-6 mt-24">
+              <h1 class="text-white font-semibold uppercase text-[25px] font-clashDisplay">Quality Assurance</h1>
+              <p class="text-white">Ensuring the reliability and security of blockchain solutions through rigorous evaluation and validation.</p>
+            </div>
+          </div>
+          <!-- card 3 -->
+          <div class="card relative flex flex-col justify-between items-start py-5 px-8 border border-[#666666] rounded-lg bg-gradient-to-t from-[#111111] to-transparent w-full max-w-[360px] h-full overflow-hidden">
+            <img src="/flower-1.svg" alt="Icon" class="absolute -top-1 -right-1 w-[8rem] h-[8rem] md:w-[12rem] md:h-[12rem]" />
+            <h1 class="font-clashDisplay font-bold text-[#666666]">03.</h1>
+            <div class="flex flex-col gap-y-6 mt-24">
+              <h1 class="text-white font-semibold uppercase text-[25px] font-clashDisplay">Research & Development</h1>
+              <p class="text-white">Advancing blockchain technology with cutting-edge research and development to drive innovation and industry progress.</p>
+            </div>
+          </div>
+          <!-- card 4 -->
+          <div class="card relative flex flex-col justify-between items-start py-5 px-8 border border-[#666666] rounded-lg bg-gradient-to-t from-[#111111] to-transparent w-full max-w-[360px] h-full overflow-hidden">
+            <img src="/cube-2.svg" alt="Icon" class="absolute -top-1 -right-1 w-[8rem] h-[8rem] md:w-[12rem] md:h-[12rem]" />
+            <h1 class="font-clashDisplay font-bold text-[#666666]">04.</h1>
+            <div class="flex flex-col gap-y-6 mt-24">
+              <h1 class="text-white font-semibold uppercase text-[25px] font-clashDisplay">Community Building</h1>
+              <p class="text-white">Nurturing innovative blockchain projects from concept to launch, providing guidance, resources, and support.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="relative w-full py-[100px] px-5 lg:px-10 overflow-x-hidden bg-gradient-to-r from-[#7915EC] via-[#CC51FF] to-[#F4B4FF]">
+      <div class="md:max-w-[100rem] py-5 lg:mx-auto flex flex-col justify-center gap-y-24">
+        <div class="flex flex-col gap-y-5 lg:flex-row w-full items-center justify-between">
+          <div class="flex flex-col gap-y-5 w-full max-w-[610px]">
+            <h3 class="font-bold text-lg text-white">Developers</h3>
+            <h1 class="font-bold font-clashDisplay uppercase text-white text-[30px] md:text-[60px] leading-tight">unlocking the hidden Potential of Taranium</h1>
+            <p class="text-white">Taranium is the foundation for a wide array of Web3 projects. From decentralized finance to real-world asset tokenization, our network is the backbone for innovation in the digital age.</p>
+          </div>
+          <img src="/section-developers.png" alt="" class="w-full max-w-[700px]" />
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 justify-items-center">
+          <div class="relative flex flex-col justify-between items-center py-5 px-8 w-full max-w-[360px] h-full overflow-hidden gap-y-8">
+            <img src="/item-developer-1.png" alt="" class="drop-shadow-[0_0_15px_rgba(255,255,255,1),_0_0_30px_rgba(255,255,255,1),_0_0_45px_rgba(255,255,255,1)] w-36" />
+            <div class="flex flex-col gap-y-4">
+              <h1 class="text-white font-clashDisplay font-bold capitalize text-3xl text-center">DApps</h1>
+              <p class="text-white text-center">Create powerful decentralized applications that are user-centric and secure.</p>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-between items-center py-5 px-8 w-full max-w-[360px] h-full overflow-hidden gap-y-8">
+            <img src="/item-developer-2.png" alt="" class="drop-shadow-[0_0_15px_rgba(255,255,255,0.7),_0_0_30px_rgba(255,255,255,0.5),_0_0_45px_rgba(255,255,255,0.3)] w-36" />
+            <div class="flex flex-col gap-y-4">
+              <h1 class="text-white font-clashDisplay font-bold capitalize text-3xl text-center">de fi</h1>
+              <p class="text-white text-center">Create powerful decentralized applications that are user-centric and secure.</p>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-between items-center py-5 px-8 w-full max-w-[360px] h-full overflow-hidden gap-y-8">
+            <img src="/item-developer-3.png" alt="" class="drop-shadow-[0_0_15px_rgba(255,255,255,0.7),_0_0_30px_rgba(255,255,255,0.5),_0_0_45px_rgba(255,255,255,0.3)] w-36" />
+            <div class="flex flex-col gap-y-4">
+              <h1 class="text-white font-clashDisplay font-bold capitalize text-3xl text-center">metaverse</h1>
+              <p class="text-white text-center">Create powerful decentralized applications that are user-centric and secure.</p>
+            </div>
+          </div>
+          <div class="relative flex flex-col justify-between items-center py-5 px-8 w-full max-w-[360px] h-full overflow-hidden gap-y-8">
+            <img src="/item-developer-4.png" alt="" class="drop-shadow-[0_0_15px_rgba(255,255,255,0.7),_0_0_30px_rgba(255,255,255,0.5),_0_0_45px_rgba(255,255,255,0.3)] w-36" />
+            <div class="flex flex-col gap-y-4">
+              <h1 class="text-white font-clashDisplay font-bold capitalize text-3xl text-center">tokenization</h1>
+              <p class="text-white text-center">Create powerful decentralized applications that are user-centric and secure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</MainLayouts>
