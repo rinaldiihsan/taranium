@@ -61,49 +61,61 @@ import MainLayouts from '../layouts/Main-Layouts.astro';
       <div class="max-w-[90rem] mx-auto flex flex-col items-center justify-center gap-y-10 sm:gap-y-12">
         <h1 class="text-center text-3xl sm:text-4xl lg:text-[45px] text-white font-clashDisplay font-bold tracking-[1.5px] sm:tracking-[2px] uppercase">COURSE OVERVIEW</h1>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7 justify-items-center w-full">
-          <div class="relative flex flex-col justify-between items-center p-6 sm:p-8 max-w-[600px] w-full h-full overflow-hidden gap-y-6 sm:gap-y-8 bg-[#232323] border-[0.8px] border-[#666666] rounded-lg">
+          <!-- Card 1 -->
+          <div class="relative flex flex-col items-center p-6 sm:p-8 max-w-[600px] w-full min-h-[300px] bg-[#232323] border border-[#666666] rounded-lg overflow-hidden gap-y-10 sm:gap-y-10">
             <img src="/assets/image-item-academy.png" alt="" class="drop-shadow-2xl w-24 sm:w-32" />
-            <div class="flex flex-col gap-y-3 sm:gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center">Foundations of Blockchain Technology</h1>
-              <p class="text-white text-center text-sm sm:text-base">Gain a comprehensive understanding of blockchain fundamentals, including consensus mechanisms, cryptography, and decentralized networks.</p>
+            <div class="flex flex-col gap-y-3 sm:gap-y-4 text-center">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem]">Foundations of Blockchain Technology</h1>
+              <p class="text-white text-sm sm:text-base">Gain a comprehensive understanding of blockchain fundamentals, including consensus mechanisms, cryptography, and decentralized networks.</p>
             </div>
           </div>
-          <div class="relative flex flex-col justify-between items-center p-6 sm:p-8 max-w-[600px] w-full h-full overflow-hidden gap-y-6 sm:gap-y-8 bg-[#232323] border-[0.8px] border-[#666666] rounded-lg">
+
+          <!-- Card 2 -->
+          <div class="relative flex flex-col items-center p-6 sm:p-8 max-w-[600px] w-full min-h-[300px] bg-[#232323] border border-[#666666] rounded-lg overflow-hidden gap-y-10 sm:gap-y-10">
             <img src="/assets/image-item-academy1.png" alt="" class="drop-shadow-2xl w-24 sm:w-32" />
-            <div class="flex flex-col justify-center items-center gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center">Building dApps on Taranium</h1>
-              <p class="text-white text-center text-sm sm:text-base">Gain a comprehensive understanding of blockchain fundamentals, including consensus mechanisms, cryptography, and decentralized networks.</p>
+            <div class="flex flex-col gap-y-3 sm:gap-y-4 text-center">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem]">Building dApps on Taranium</h1>
+              <p class="text-white text-sm sm:text-base">Gain a comprehensive understanding of blockchain fundamentals, including consensus mechanisms, cryptography, and decentralized networks.</p>
             </div>
           </div>
-          <div class="relative flex flex-col justify-between items-center p-6 sm:p-8 max-w-[600px] w-full h-full overflow-hidden gap-y-6 sm:gap-y-8 bg-[#232323] border-[0.8px] border-[#666666] rounded-lg">
+
+          <!-- Card 3 -->
+          <div class="relative flex flex-col items-center p-6 sm:p-8 max-w-[600px] w-full min-h-[300px] bg-[#232323] border border-[#666666] rounded-lg overflow-hidden gap-y-10 sm:gap-y-10">
             <img src="/assets/image-item-academy2.png" alt="" class="drop-shadow-2xl w-24 sm:w-32" />
-            <div class="flex flex-col gap-y-3 sm:gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center">Decentralized Finance (DeFi) Essentials</h1>
-              <p class="text-white text-center text-sm sm:text-base">Gain a comprehensive understanding of blockchain fundamentals, including consensus mechanisms, cryptography, and decentralized networks.</p>
+            <div class="flex flex-col gap-y-3 sm:gap-y-4 text-center">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem]">Decentralized Finance (DeFi) Essentials</h1>
+              <p class="text-white text-sm sm:text-base">Gain a comprehensive understanding of blockchain fundamentals, including consensus mechanisms, cryptography, and decentralized networks.</p>
             </div>
           </div>
-          <div class="relative flex flex-col justify-between items-center p-6 sm:p-8 max-w-[600px] w-full h-full overflow-hidden gap-y-6 sm:gap-y-8 bg-[#232323] border-[0.8px] border-[#666666] rounded-lg">
+
+          <!-- Card 4 -->
+          <div class="relative flex flex-col items-center p-6 sm:p-8 max-w-[600px] w-full min-h-[300px] bg-[#232323] border border-[#666666] rounded-lg overflow-hidden gap-y-10 sm:gap-y-10">
             <img src="/assets/image-item-academy3.png" alt="" class="drop-shadow-2xl w-24 sm:w-32" />
-            <div class="flex flex-col gap-y-3 sm:gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center">Metaverse Development on Taranium</h1>
-              <p class="text-white text-center text-sm sm:text-base">Dive into the development of immersive digital worlds and learn how to create and manage virtual assets within the metaverse.</p>
+            <div class="flex flex-col gap-y-3 sm:gap-y-4 text-center">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem]">Metaverse Development on Taranium</h1>
+              <p class="text-white text-sm sm:text-base">Dive into the development of immersive digital worlds and learn how to create and manage virtual assets within the metaverse.</p>
             </div>
           </div>
-          <div class="relative flex flex-col justify-between items-center p-6 sm:p-8 max-w-[600px] w-full h-full overflow-hidden gap-y-6 sm:gap-y-8 bg-[#232323] border-[0.8px] border-[#666666] rounded-lg">
+
+          <!-- Card 5 -->
+          <div class="relative flex flex-col items-center p-6 sm:p-8 max-w-[600px] w-full min-h-[300px] bg-[#232323] border border-[#666666] rounded-lg overflow-hidden gap-y-10 sm:gap-y-10">
             <img src="/assets/image-item-academy4.png" alt="" class="drop-shadow-2xl w-24 sm:w-32" />
-            <div class="flex flex-col gap-y-3 sm:gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center">Real-World Asset Tokenization</h1>
-              <p class="text-white text-center text-sm sm:text-base">Understand the process of tokenizing physical assets, including real estate, art, and commodities, and how to integrate them into the Taranium network.</p>
+            <div class="flex flex-col gap-y-3 sm:gap-y-4 text-center">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem]">Real-World Asset Tokenization</h1>
+              <p class="text-white text-sm sm:text-base">Understand the process of tokenizing physical assets, including real estate, art, and commodities, and how to integrate them into the Taranium network.</p>
             </div>
           </div>
-          <div class="relative flex flex-col justify-between items-center p-6 sm:p-8 max-w-[600px] w-full h-full overflow-hidden gap-y-6 sm:gap-y-8 bg-[#232323] border-[0.8px] border-[#666666] rounded-lg">
+
+          <!-- Card 6 -->
+          <div class="relative flex flex-col items-center p-6 sm:p-8 max-w-[600px] w-full min-h-[300px] bg-[#232323] border border-[#666666] rounded-lg overflow-hidden gap-y-10 sm:gap-y-10">
             <img src="/assets/image-item-academy5.png" alt="" class="drop-shadow-2xl w-24 sm:w-32" />
-            <div class="flex flex-col gap-y-3 sm:gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center">Blockchain Security and Compliance</h1>
-              <p class="text-white text-center text-sm sm:text-base">Learn the best practices for ensuring security in blockchain projects that covers topics like smart contract audits, data privacy, and regulatory</p>
+            <div class="flex flex-col gap-y-3 sm:gap-y-4 text-center">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem]">Blockchain Security and Compliance</h1>
+              <p class="text-white text-sm sm:text-base">Learn the best practices for ensuring security in blockchain projects that covers topics like smart contract audits, data privacy, and regulatory compliance.</p>
             </div>
           </div>
         </div>
+
         <button class="px-12 py-3 bg-white text-black font-clashDisplay font-semibold rounded-md">Join Academy</button>
       </div>
     </section>
