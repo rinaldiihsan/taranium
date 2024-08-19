@@ -14,10 +14,10 @@ const Footer = () => {
               <h1 className="text-white font-semibold text-lg">Location</h1>
               <div className="flex flex-col gap-y-3 text-white">
                 <a href="/">Home</a>
-                <a href="/">What is Taranium?</a>
-                <a href="/">Our Journey</a>
-                <a href="/">Team</a>
-                <a href="/">Future Vision</a>
+                <a href="/our-story">Our Story</a>
+                <a href="/academy">Taranium Academy</a>
+                <a href="/funding">Funding</a>
+                <a href="/community">Community</a>
               </div>
             </div>
             <div className="flex flex-col gap-y-5">
