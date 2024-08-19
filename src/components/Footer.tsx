@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col md:flex-row justify-between items-start gap-x-14">
             <div className="flex flex-col gap-y-5 ">
-              <h1 className="text-white font-semibold text-lg">Location</h1>
+              <h1 className="text-white font-semibold text-lg">Menu's</h1>
               <div className="flex flex-col gap-y-3 text-white">
                 <a href="/">Home</a>
                 <a href="/our-story">Our Story</a>
