@@ -5,36 +5,11 @@ const Footer = () => {
   return (
     <footer className="relative w-full pt-[100px] pb-[20px] md:px-6 lg:px-10 bg-[#17181D]">
       <div className="md:max-w-[80rem] py-5 px-5 md:px-0 lg:mx-auto flex flex-col gap-y-[10rem]">
-        <div className="flex flex-col md:flex-row lg:items-center justify-between gap-y-20 md:gap-y-0">
+        <div className="flex flex-col md:flex-row lg:items-start justify-start gap-y-20 md:gap-y-0 gap-x-0 md:gap-x-[20rem]">
           <div>
             <img src="/logo-footer.svg" alt="logo" className="" />
           </div>
           <div className="flex flex-col md:flex-row justify-between items-start gap-x-14">
-            <div className="flex flex-col gap-y-5">
-              <h1 className="text-white font-semibold text-lg">Contact Info</h1>
-              <div className="flex flex-col gap-y-3">
-                <div className="flex gap-x-3">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M20 20H4C2.89543 20 2 19.1046 2 18V5.913C2.04661 4.84255 2.92853 3.99899 4 4H20C21.1046 4 22 4.89543 22 6V18C22 19.1046 21.1046 20 20 20ZM4 7.868V18H20V7.868L12 13.2L4 7.868ZM4.8 6L12 10.8L19.2 6H4.8Z"
-                      fill="white"
-                    />
-                  </svg>
-                  <p className="text-white">contact@taranium.io</p>
-                </div>
-              </div>
-              <div className="flex flex-col gap-y-3">
-                <div className="flex gap-x-3">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M18.9975 20C10.4659 20.0121 3.99088 13.4595 4.00001 5.00251C4.00001 4.45023 4.44773 4 5.00001 4H7.63937C8.13494 4 8.55593 4.36413 8.6287 4.85433C8.80311 6.0292 9.14517 7.17297 9.64448 8.2507L9.74725 8.4725C9.89013 8.78091 9.79328 9.14734 9.51668 9.34487C8.6993 9.92859 8.38692 11.1036 9.0237 12.0204C9.82278 13.1708 10.8301 14.1779 11.9803 14.9766C12.897 15.6132 14.0718 15.3009 14.6555 14.4836C14.8532 14.2069 15.2198 14.11 15.5284 14.2529L15.7492 14.3552C16.827 14.8545 17.9708 15.1966 19.1458 15.371C19.636 15.4437 20 15.8647 20 16.3603V19C20 19.5523 19.5512 20 18.9989 20L18.9975 20Z"
-                      fill="white"
-                    />
-                  </svg>
-                  <p className="text-white">(+62) 822 1111 1110</p>
-                </div>
-              </div>
-            </div>
             <div className="flex flex-col gap-y-5 ">
               <h1 className="text-white font-semibold text-lg">Location</h1>
               <div className="flex flex-col gap-y-3 text-white">
