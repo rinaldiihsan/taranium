@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         clashDisplay: ['Clash Display', 'sans-serif'],
+        nasalization: ['Nasalization', 'sans-serif'],
       },
       screens: {
         handphone: '375px',
