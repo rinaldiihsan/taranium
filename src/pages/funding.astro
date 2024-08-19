@@ -4,135 +4,143 @@ import MainLayouts from '../layouts/Main-Layouts.astro';
 
 <MainLayouts subtitle="Funding" title="Taranium">
   <div class="relative md:mx-auto flex flex-col justify-between items-center">
-    <section class="relative w-full min-h-screen py-[100px] md:px-6 lg:px-10 flex items-center justify-center text-center">
+    <section class="relative w-full min-h-screen py-16 sm:py-20 lg:py-[100px] px-4 sm:px-6 lg:px-10 flex items-center justify-center text-center">
       <div class="absolute inset-0 -z-10 h-full w-full overflow-hidden">
         <img src="/funding-bg-image.png" alt="cube-1" class="absolute top-[120px] left-[100px] w-[50rem] hidden lg:block" />
       </div>
-      <div class="md:max-w-[100rem] py-5 px-5 md:px-0 lg:mx-auto font-clashDisplay flex flex-col lg:flex-row items-center justify-between gap-y-8 gap-x-10">
+      <div class="w-full max-w-[100rem] py-5 px-4 sm:px-6 lg:px-10 mx-auto font-clashDisplay flex flex-col lg:flex-row items-center justify-between gap-y-8 lg:gap-x-10">
         <div class="lg:w-1/2">
-          <h1 class="text-[40px] lg:text-[8rem] font-semibold text-start text-white capitalize leading-tight">
-            Bold Ideas <span class="bg-gradient-to-r from-[#CFB1FF] via-[#CFB1FF] to-[#7915EC] inline-block text-transparent bg-clip-text tracking-[4px]"> Get Funded</span>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-[7rem] font-semibold text-start text-white capitalize leading-tight">
+            Bold Ideas <span class="bg-gradient-to-r from-[#CFB1FF] via-[#CFB1FF] to-[#7915EC] inline-block text-transparent bg-clip-text tracking-[2px] sm:tracking-[4px]"> Get Funded</span>
           </h1>
-          <p class="font-poppins text-start leading-9 text-lg text-white mt-4">
+          <p class="font-poppins text-start leading-7 sm:leading-9 text-base sm:text-lg text-white mt-4">
             At Taranium, we champion collaboration and innovation, offering funding opportunities to help developers, researchers, and entrepreneurs bring groundbreaking ideas to life.
           </p>
         </div>
         <div class="lg:w-1/2 flex justify-center lg:justify-end">
-          <img src="funding-hero-image.png" alt="Funding Hero" class="w-[600px] h-[578px]" />
+          <img src="funding-hero-image.png" alt="Funding Hero" class="w-[600px] h-[578px] hidden md:block" />
         </div>
       </div>
     </section>
-    <section class="relative w-full py-[100px] md:px-6 lg:px-10">
-      <div class="md:max-w-[90rem] py-5 lg:mx-auto flex flex-col items-center justify-center gap-y-12">
-        <h1 class="text-center text-[45px] text-white font-clashDisplay font-semibold tracking-[3px] uppercase">What You Gain</h1>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-7 justify-items-center w-full">
-          <div class="relative flex justify-between items-center p-12 max-w-[700px] w-full h-full overflow-hidden gap-y-8 bg-white/5 backdrop-blur-sm rounded-lg">
-            <div class="flex flex-col gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-[1.5rem] text-start drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Grants for Development</h1>
-              <p class="text-white text-start w-[400px] drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">We fund projects aligned with Taranium’s mission, helping you succeed in dApps, DeFi, and blockchain innovations.</p>
+
+    <section class="relative w-full py-16 sm:py-20 lg:py-[100px] px-4 sm:px-6 lg:px-10">
+      <div class="w-full max-w-[90rem] mx-auto flex flex-col items-center justify-center gap-y-8 sm:gap-y-12">
+        <h1 class="text-center text-3xl sm:text-4xl lg:text-[45px] text-white font-clashDisplay font-semibold tracking-[2px] sm:tracking-[3px] uppercase">What You Gain</h1>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-7 justify-items-center w-full">
+          <div class="relative flex flex-col sm:flex-row justify-between items-center p-6 sm:p-8 lg:p-12 w-full h-full overflow-hidden gap-y-4 sm:gap-y-0 sm:gap-x-4 bg-white/5 backdrop-blur-sm rounded-lg">
+            <div class="flex flex-col gap-y-3 sm:gap-y-4">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center sm:text-start drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Grants for Development</h1>
+              <p class="text-white text-center sm:text-start w-full sm:w-[400px] text-sm sm:text-base drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">
+                We fund projects aligned with Taranium’s mission, helping you succeed in dApps, DeFi, and blockchain innovations.
+              </p>
             </div>
-            <img src="/assets/image-item-funding.png" alt="" class="w-[10rem]" />
+            <img src="/assets/image-item-funding.png" alt="" class="w-24 sm:w-[10rem]" />
           </div>
 
-          <div class="relative flex justify-between items-center p-12 max-w-[700px] w-full h-full overflow-hidden gap-y-8 bg-white/5 backdrop-blur-sm rounded-lg">
-            <div class="flex flex-col gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-[1.5rem] text-start drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Ecosystem Support</h1>
-              <p class="text-white text-start w-[400px] drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Access our network for technical help, marketing, and strategic connections to ensure your project thrives.</p>
+          <div class="relative flex flex-col sm:flex-row justify-between items-center p-6 sm:p-8 lg:p-12 w-full h-full overflow-hidden gap-y-4 sm:gap-y-0 sm:gap-x-4 bg-white/5 backdrop-blur-sm rounded-lg">
+            <div class="flex flex-col gap-y-3 sm:gap-y-4">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center sm:text-start drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Ecosystem Support</h1>
+              <p class="text-white text-center sm:text-start w-full sm:w-[400px] text-sm sm:text-base drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">
+                Access our network for technical help, marketing, and strategic connections to ensure your project thrives.
+              </p>
             </div>
-            <img src="/assets/image-item-funding1.png" alt="" class="w-[10rem]" />
+            <img src="/assets/image-item-funding1.png" alt="" class="w-24 sm:w-[10rem]" />
           </div>
 
-          <div class="relative flex justify-between items-center p-12 max-w-[700px] w-full h-full overflow-hidden gap-y-8 bg-white/5 backdrop-blur-sm rounded-lg">
-            <div class="flex flex-col gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-[1.5rem] text-start drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Tailored Funding</h1>
-              <p class="text-white text-start w-[400px] drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">We offer customized grants, from small to significant, based on your project’s needs and impact.</p>
+          <div class="relative flex flex-col sm:flex-row justify-between items-center p-6 sm:p-8 lg:p-12 w-full h-full overflow-hidden gap-y-4 sm:gap-y-0 sm:gap-x-4 bg-white/5 backdrop-blur-sm rounded-lg">
+            <div class="flex flex-col gap-y-3 sm:gap-y-4">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center sm:text-start drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Tailored Funding</h1>
+              <p class="text-white text-center sm:text-start w-full sm:w-[400px] text-sm sm:text-base drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">
+                We offer customized grants, from small to significant, based on your project’s needs and impact.
+              </p>
             </div>
-            <img src="/assets/image-item-funding2.png" alt="" class="w-[10rem]" />
+            <img src="/assets/image-item-funding2.png" alt="" class="w-24 sm:w-[10rem]" />
           </div>
 
-          <div class="relative flex justify-between items-center p-12 max-w-[700px] w-full h-full overflow-hidden gap-y-8 bg-white/5 backdrop-blur-sm rounded-lg">
-            <div class="flex flex-col gap-y-4">
-              <h1 class="text-white font-clashDisplay font-semibold uppercase text-[1.5rem] text-start drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Collaborative Growth</h1>
+          <div class="relative flex flex-col sm:flex-row justify-between items-center p-6 sm:p-8 lg:p-12 w-full h-full overflow-hidden gap-y-4 sm:gap-y-0 sm:gap-x-4 bg-white/5 backdrop-blur-sm rounded-lg">
+            <div class="flex flex-col gap-y-3 sm:gap-y-4">
+              <h1 class="text-white font-clashDisplay font-semibold uppercase text-xl sm:text-[1.5rem] text-center sm:text-start drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Collaborative Growth</h1>
               <p class="text-white text-start w-[300px] drop-shadow-[0_0_15px_rgba(255,255,255,0.8)]">Join a community of innovators and work with us to push the boundaries of blockchain technology.</p>
             </div>
-            <img src="/assets/image-item-funding3.png" alt="" class="w-[10rem]" />
+            <img src="/assets/image-item-funding3.png" alt="" class="w-24 sm:w-[10rem]" />
           </div>
         </div>
       </div>
     </section>
-    <section class="relative w-full py-20 md:px-6 lg:px-10">
-      <div class="md:max-w-[80rem] mx-auto flex flex-col items-center gap-y-24">
-        <h2 class="text-center text-[45px] text-white font-semibold font-clashDisplay uppercase tracking-[4px]">How To Apply</h2>
+
+    <section class="relative w-full py-16 sm:py-20 px-4 sm:px-6 lg:px-10">
+      <div class="w-full max-w-[80rem] mx-auto flex flex-col items-center gap-y-16 sm:gap-y-24">
+        <h2 class="text-center text-3xl sm:text-4xl lg:text-[45px] text-white font-semibold font-clashDisplay uppercase tracking-[2px] sm:tracking-[4px]">How To Apply</h2>
         <!-- Timeline Container -->
         <div class="relative flex items-center justify-center w-full">
           <!-- Horizontal Line -->
-          <div class="absolute inset-x-0 bottom-1/2 transform translate-y-6">
+          <div class="absolute inset-x-0 bottom-1/2 transform translate-y-6 hidden sm:block">
             <div class="w-full border-t border-[#666667]"></div>
           </div>
           <!-- Steps Wrapper -->
-          <div class="relative flex justify-between items-start w-full gap-16">
+          <div class="relative flex flex-col sm:flex-row justify-between items-start w-full gap-8 sm:gap-4 lg:gap-16">
             <!-- Step 1 -->
-            <div class="relative flex flex-col items-center text-center w-1/4">
+            <div class="relative flex flex-col items-center text-center w-full sm:w-1/4">
               <!-- Step Content -->
-              <div class="mb-[7rem] bg-[#101010] border border-[#D0B2FF] rounded-md p-8 space-y-3">
-                <h3 class="text-2xl font-semibold text-[#D0B2FF] uppercase">Step 1</h3>
-                <p class="text-white font-medium">Proposal Submission</p>
+              <div class="mb-4 sm:mb-[7rem] bg-[#101010] border border-[#D0B2FF] rounded-md p-4 sm:p-8 space-y-2 sm:space-y-3">
+                <h3 class="text-xl sm:text-2xl font-semibold text-[#D0B2FF] uppercase">Step 1</h3>
+                <p class="text-white font-medium text-sm sm:text-base">Proposal Submission</p>
               </div>
               <!-- Circle in the middle -->
-              <div class="absolute top-1/2 lg:top-[57%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <div class="w-8 h-8 bg-[#101010] border-4 border-[#D0B2FF] rounded-full"></div>
+              <div class="absolute top-full sm:top-1/2 lg:top-[57%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:block">
+                <div class="w-6 h-6 sm:w-8 sm:h-8 bg-[#101010] border-4 border-[#D0B2FF] rounded-full"></div>
               </div>
               <!-- Description below -->
-              <div class="mt-4 px-4">
-                <p class="text-gray-300">Submit your project proposal, detailing your vision, objectives, and the impact it will have on the Taranium ecosystem.</p>
+              <div class="mt-8 sm:mt-4 px-2 sm:px-4">
+                <p class="text-gray-300 text-sm sm:text-base">Submit your project proposal, detailing your vision, objectives, and the impact it will have on the Taranium ecosystem.</p>
               </div>
             </div>
             <!-- Step 2 -->
-            <div class="relative flex flex-col items-center text-center w-1/4">
+            <div class="relative flex flex-col items-center text-center w-full sm:w-1/4">
               <!-- Step Content -->
-              <div class="mb-[7rem] bg-[#101010] border border-[#D0B2FF] rounded-md p-8 space-y-3">
-                <h3 class="text-2xl font-semibold text-[#D0B2FF] uppercase">Step 2</h3>
-                <p class="text-white font-medium">Proposal Review</p>
+              <div class="mb-4 sm:mb-[7rem] bg-[#101010] border border-[#D0B2FF] rounded-md p-4 sm:p-8 space-y-2 sm:space-y-3">
+                <h3 class="text-xl sm:text-2xl font-semibold text-[#D0B2FF] uppercase">Step 2</h3>
+                <p class="text-white font-medium text-sm sm:text-base">Proposal Review</p>
               </div>
               <!-- Circle in the middle -->
-              <div class="absolute top-1/2 lg:top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <div class="w-8 h-8 bg-[#101010] border-4 border-[#D0B2FF] rounded-full"></div>
+              <div class="absolute top-1/2 lg:top-[60%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:block">
+                <div class="w-6 h-6 sm:w-8 sm:h-8 bg-[#101010] border-4 border-[#D0B2FF] rounded-full"></div>
               </div>
               <!-- Description below -->
-              <div class="mt-4 px-4">
+              <div class="mt-8 sm:mt-4 px-2 sm:px-4">
                 <p class="text-gray-300 leading-relaxed">Our team will review your application, focusing on the project's relevance, feasibility, and potential for success.</p>
               </div>
             </div>
             <!-- Step 3 -->
-            <div class="relative flex flex-col items-center text-center w-1/4">
+            <div class="relative flex flex-col items-center text-center w-full sm:w-1/4">
               <!-- Step Content -->
-              <div class="mb-[7rem] bg-[#101010] border border-[#D0B2FF] rounded-md p-8 space-y-3">
-                <h3 class="text-2xl font-semibold text-[#D0B2FF] uppercase">Step 3</h3>
-                <p class="text-white font-medium">Proposal Shortlisting</p>
+              <div class="mb-4 sm:mb-[7rem] bg-[#101010] border border-[#D0B2FF] rounded-md p-4 sm:p-8 space-y-2 sm:space-y-3">
+                <h3 class="text-xl sm:text-2xl font-semibold text-[#D0B2FF] uppercase">Step 3</h3>
+                <p class="text-white font-medium text-sm sm:text-base">Proposal Shortlisting</p>
               </div>
               <!-- Circle in the middle -->
-              <div class="absolute top-1/2 lg:top-[57%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <div class="w-8 h-8 bg-[#101010] border-4 border-[#D0B2FF] rounded-full"></div>
+              <div class="absolute top-full sm:top-1/2 lg:top-[57%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:block">
+                <div class="w-6 h-6 sm:w-8 sm:h-8 bg-[#101010] border-4 border-[#D0B2FF] rounded-full"></div>
               </div>
               <!-- Description below -->
-              <div class="mt-4 px-4">
-                <p class="text-gray-300">Shortlisted projects will go through a technical and strategic assessment, followed by a detailed plan presentation.</p>
+              <div class="mt-8 sm:mt-4 px-2 sm:px-4">
+                <p class="text-gray-300 text-sm sm:text-base">Shortlisted projects will go through a technical and strategic assessment, followed by a detailed plan presentation.</p>
               </div>
             </div>
             <!-- Step 4 -->
-            <div class="relative flex flex-col items-center text-center w-1/4">
+            <div class="relative flex flex-col items-center text-center w-full sm:w-1/4">
               <!-- Step Content -->
-              <div class="mb-[7rem] bg-[#101010] border border-[#D0B2FF] rounded-md p-8 space-y-3">
-                <h3 class="text-2xl font-semibold text-[#D0B2FF] uppercase">Step 4</h3>
-                <p class="text-white font-medium">Pitch Day!</p>
+              <div class="mb-4 sm:mb-[7rem] bg-[#101010] border border-[#D0B2FF] rounded-md p-4 sm:p-8 space-y-2 sm:space-y-3">
+                <h3 class="text-xl sm:text-2xl font-semibold text-[#D0B2FF] uppercase">Step 4</h3>
+                <p class="text-white font-medium text-sm sm:text-base">Pitch Day!</p>
               </div>
               <!-- Circle in the middle -->
-              <div class="absolute top-1/2 lg:top-[57%] left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                <div class="w-8 h-8 bg-[#101010] border-4 border-[#D0B2FF] rounded-full"></div>
+              <div class="absolute top-full sm:top-1/2 lg:top-[57%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 hidden md:block">
+                <div class="w-6 h-6 sm:w-8 sm:h-8 bg-[#101010] border-4 border-[#D0B2FF] rounded-full"></div>
               </div>
               <!-- Description below -->
-              <div class="mt-4 px-4">
-                <p class="text-gray-300">Upon approval, you’ll present your project on Pitch Day, where we’ll finalize funding and set clear milestones for your journey.</p>
+              <div class="mt-8 sm:mt-4 px-2 sm:px-4">
+                <p class="text-gray-300 text-sm sm:text-base">Upon approval, you’ll present your project on Pitch Day, where we’ll finalize funding and set clear milestones for your journey.</p>
               </div>
             </div>
           </div>
@@ -140,15 +148,15 @@ import MainLayouts from '../layouts/Main-Layouts.astro';
       </div>
     </section>
 
-    <section class="relative w-full py-36 md:px-6 lg:px-10">
-      <div class="md:max-w-[80rem] mx-auto flex flex-col items-center gap-y-24">
-        <div class="flex flex-col gap-y-5 justify-center items-center">
-          <h2 class="text-center text-[45px] text-white font-semibold font-clashDisplay uppercase tracking-[4px]">Entry Requirements</h2>
-          <p class="text-center text-white text-lg w-[730px] tracking-[1px] leading-relaxed">
+    <section class="relative w-full py-24 sm:py-36 px-4 sm:px-6 lg:px-10">
+      <div class="w-full max-w-[80rem] mx-auto flex flex-col items-center gap-y-16 sm:gap-y-24">
+        <div class="flex flex-col gap-y-4 sm:gap-y-5 justify-center items-center">
+          <h2 class="text-center text-3xl sm:text-4xl lg:text-[45px] text-white font-semibold font-clashDisplay uppercase tracking-[2px] sm:tracking-[4px]">Entry Requirements</h2>
+          <p class="text-center text-white text-base sm:text-lg w-full max-w-[730px] tracking-[0.5px] sm:tracking-[1px] leading-relaxed">
             We welcome applications from developers, researchers, startups, and organizations dedicated to advancing blockchain technology. If you have a project that can contribute to the Taranium network, we want to hear from you.
           </p>
         </div>
-        <button class="px-16 py-3 bg-inherit border-2 border-[#7915EC] text-[#7915EC] font-clashDisplay font-semibold rounded-md">Apply Now</button>
+        <button class="px-12 sm:px-16 py-3 bg-inherit border-2 border-[#7915EC] text-[#7915EC] font-clashDisplay font-semibold rounded-md text-sm sm:text-base">Apply Now</button>
       </div>
     </section>
   </div>
