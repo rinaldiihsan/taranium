@@ -1,4 +1,4 @@
-# Tiranium with Astro
+# Taranium with Astro
 
 ## 🧐 What this website
 
