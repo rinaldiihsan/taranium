@@ -18,6 +18,7 @@ const year = new Date().getFullYear();
       content={`Taranium is the first Indonesian blockchain platform built on Ethereum Virtual Machine (EVM) and Solidity. It’s designed to empower local developers and businesses with a robust, scalable, and user-friendly blockchain environment tailored to Indonesia's unique needs. ${year}`}
     />
     <meta name="keywords" content="blockchain, ethereum, solidity, indonesia, evm, taranium" />
+    <meta name="robots" content="index, follow" />
     <meta name="author" content=`${title}` />
     <meta name="generator" content={Astro.generator} />
 
@@ -40,7 +41,7 @@ const year = new Date().getFullYear();
     />
     <meta name="twitter:image" content={'/logo-solo.svg'} />
 
-    <!-- JSON-LD Structured -->
+    <!-- JSON-LD Structured Data -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -55,7 +56,18 @@ const year = new Date().getFullYear();
             "name": "Taranium Team"
           }
         ],
-        "sameAs": ["https://facebook.com/taranium", "https://twitter.com/taranium", "https://instagram.com/taranium", "https://linkedin.com/company/taranium"]
+        "sameAs": ["https://facebook.com/taranium", "https://twitter.com/taranium", "https://instagram.com/taranium", "https://linkedin.com/company/taranium"],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+62-123-4567",
+          "contactType": "Customer Support",
+          "availableLanguage": ["English", "Indonesian"]
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Jakarta",
+          "addressCountry": "ID"
+        }
       }
     </script>
     <!-- Font Poppins -->
