@@ -11,7 +11,7 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine.
 
    ```shell
-   git clone https://github.com/rinaldiihsan/tiranium.git
+   git clone https://github.com/rinaldiihsan/taranium.git
    ```
 
 2. Install the project dependencies.
