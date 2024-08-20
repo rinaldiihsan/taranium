@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <img src="/logo-footer.svg" alt="logo" className="w-[8rem]" />
           </div>
-          <div className="flex flex-col md:flex-row justify-between items-start gap-x-14">
+          <div className="flex flex-col md:flex-row justify-between items-start gap-y-14 gap-x-0 md:gap-y-0 md:gap-x-14">
             <div className="flex flex-col gap-y-5 ">
               <h1 className="text-white font-semibold text-lg">Menu's</h1>
               <div className="flex flex-col gap-y-3 text-white">
