@@ -70,7 +70,7 @@ const Navbar = () => {
 
   return (
     <nav className={`${navbarColor} fixed top-0 left-0 right-0 w-full z-[999] transition-colors duration-300`}>
-      <div className="max-w-[100rem] py-5 mx-auto px-5 md:px-2 flex justify-between items-center">
+      <div className="max-w-[100rem] py-5 mx-10 xl:mx-auto px-5 md:px-2 flex justify-between items-center">
         <a href="/" className="flex gap-x-2 items-center">
           <img src="/logo.png" alt="Logo Yaspendhar" className="w-[8rem] md:w-[11rem]" />
         </a>
