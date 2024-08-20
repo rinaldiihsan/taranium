@@ -95,7 +95,7 @@ const Navbar = () => {
           </div>
         )}
 
-        {matches && <button className="flex bg-gradient-to-br from-[#D0B2FF] to-[#7915EC] px-8 py-2.5 rounded-md font-medium text-white">Contact</button>}
+        {/* {matches && <button className="flex bg-gradient-to-br from-[#D0B2FF] to-[#7915EC] px-8 py-2.5 rounded-md font-medium text-white">Contact</button>} */}
 
         {!matches && (
           <div className="space-y-1.5 cursor-pointer z-50" onClick={() => setToggled((prevToggle) => !prevToggle)}>
