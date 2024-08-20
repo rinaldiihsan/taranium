@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="md:max-w-[80rem] py-5 px-5 md:px-0 lg:mx-auto flex flex-col gap-y-[10rem]">
         <div className="flex flex-col md:flex-row lg:items-start justify-start gap-y-20 md:gap-y-0 gap-x-0 md:gap-x-[20rem]">
           <div>
-            <img src="/logo-footer.svg" alt="logo" className="w-[8rem]" />
+            <img src="/logo-footer-2.png" alt="logo" className="w-[8rem]" />
           </div>
           <div className="flex flex-col md:flex-row justify-between items-start gap-y-14 gap-x-0 md:gap-y-0 md:gap-x-14">
             <div className="flex flex-col gap-y-5 ">
